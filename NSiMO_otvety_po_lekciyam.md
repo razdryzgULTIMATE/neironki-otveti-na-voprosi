@@ -533,10 +533,12 @@ $Y = w_0 + w_1x_1 + w_2x_2 + w_3x_3 + ...$
 $$
 
 y'_i = y'_k(x_i) = w_k^\top x_i + w_k^0;
-\qquad
-\sum_i (y_i - y'_i)^2
-=\sum_i \left(y_i - \left(w_k^\top x_i + w_k^0\right)\right)^2
-\to \min_k.
+
+$$
+
+$$
+
+\sum_i (y_i - y'_i)^2 =\sum_i \left(y_i - \left(w_k^\top x_i + w_k^0\right)\right)^2 \to \min_k.
 
 $$
 
